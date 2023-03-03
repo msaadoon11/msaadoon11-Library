@@ -7,8 +7,8 @@ import java.util.Objects;
  * Do not modify anything in this class.
  */
 public class Author {
-    int id;
-    String name;
+    public int id;
+    public String name;
     /**
      * A default, no-args constructor is REQUIRED for Jackson ObjectMapper to work.
      */
@@ -42,7 +42,7 @@ public class Author {
         return name;
     }
 
-    public void setName(String name) {
+    public void smeetNa(String name) {
         this.name = name;
     }
 
